@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+body
+{
+	background-color: white;
+	background-image: url('image/brickwall-backgroud.jpg');
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-position: top left;
+	
+	width: 100%;
+	height: 100%;
+}
+
+button
+{
+  	color: black; 
+  	font-weight: bold;
+ 	padding: 12px;
+ 	width: 150px;
+ 	border-width: 2px 0;
+ 	border-color: 00dbef;
+ 	border-radius: 6px;
+  	background: linear-gradient(#1aecff, #00dbef);
+}
+
+#menuLeft
+{	
+	width: 220px;
+	height: 40px;
+
+	background-repeat: repeat;
+	background-attachment: scroll;
+}
+
+#menuLeft ul
+{
+	list-style: none;
+}
+
+
+#menuLeft li
+{
+	padding-top: 10px;
+}
+
+
+#tableCenter th, td:first-child 
+{
+	background: #a7c7e4;
+}
+
+#tableCenter th, td {
+	border-style: solid;
+	border-color: white;
+}
+
+#tableCenter td {
+	background: #e1edf7;
+}
+
+#goodsTable td {
+	background-color: #a8a8d5;
+	text-align: center;
+}
