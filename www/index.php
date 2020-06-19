@@ -1,8 +1,8 @@
 <html>
 <head>
-<title>MiniChan online market</title>
-<meta http-equiv="Content-Type" content="text/html" charset="UTF-8"/> 
-<link href="MiniChan.css" rel="stylesheet" type="text/css"/>
+	<title>MiniChan online market</title>
+	<meta http-equiv="Content-Type" content="text/html" charset="UTF-8"/> 
+	<link href="MiniChan.css" rel="stylesheet" type="text/css"/>
 </head>
 
 <?php 
@@ -34,53 +34,54 @@ function getInput() {
 }
 </script>
 
-<center>
-<table border="0" cellspacing="0" width = "1024">
+<body>
+	<center>
+		<table border="0" cellspacing="0" width = "1024">
 
-<tr valign="top">
-<td valign="top" width="1024">
-<a href="index.php" target="_self">
-<img src="image/head.jpg" border="0" width="1024" height="150">
-</a>
-</td>
-</tr>
+			<tr valign="top">
+				<td valign="top" width="1024">
+					<a href="index.php" target="_self">
+						<img src="image/head.jpg" border="0" width="1024" height="150">
+					</a>
+				</td>
+			</tr>
 
-<tr valign="top">
-<td valign="top" width="1024">
-<table border="1" cellpadding="0" width="1024" id="tableCenter">
-<tr valign="top">
+			<tr valign="top">
+				<td valign="top" width="1024">
+					<table border="1" cellpadding="0" width="1024" id="tableCenter">
+						<tr valign="top">
 
-<td valign="top" width="200">
-<div id ="menuLeft">
-<ul>
-<li><a href="index.php" target="_self"><button>Главная</button></a></li>
-<li><a href="index.php?page=1" target="_self"><button>Товары</button></a></li>
-<li><a href="" target="_self" id = "page"><button onClick="getInput();">Заказать</button></a></li>
-<li><a href="index.php?page=3" target="_self"><button>Контакты</button></a></li>
-</ul>
-</div>
+							<td valign="top" width="200">
+								<div id ="menuLeft">
+									<ul>
+										<li><a href="index.php" target="_self"><button>Главная</button></a></li>
+										<li><a href="index.php?page=1" target="_self"><button>Товары</button></a></li>
+										<li><a href="" target="_self" id = "page"><button onClick="getInput();">Заказать</button></a></li>
+										<li><a href="index.php?page=3" target="_self"><button>Контакты</button></a></li>
+									</ul>
+								</div>
 
-</td>
-<td valign="top" width="924">
-<?php 
-fillForm();
-?>
-</td>
-<td valign="top" width="200" height="200" style="background-color: 11caff">
-<div style="width: 200; 
-padding-top: 10px; 
-padding-bottom: 10px;">
-<p style="text-align: center;"><img src="image/adv.gif" alt="image/jpg" border="0" width="200" height="200"/></p>
-</div>
-</td>
-</tr>
-</table>
-</td>
-</tr>
-</table>
-</center>
-<div style="position:absolute; bottom: 0px; color: white;">
-Minichan, разработано Трусовым Кириллом. Email для связи: I-zey@yandex.ru.
-</div>
+							</td>
+							<td valign="top" width="924">
+								<?php 
+									fillForm();
+								?>
+							</td>
+							<td valign="top" width="200" height="200" style="background-color: 11caff">
+								<div style="width: 200; 
+									padding-top: 10px; 
+									padding-bottom: 10px;">
+									<p style="text-align: center;"><img src="image/adv.gif" alt="image/jpg" border="0" width="200" height="200"/></p>
+								</div>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</center>
+	<div style="position:absolute; bottom: 0px; color: white;">
+	Minichan, разработано Трусовым Кириллом. Email для связи: I-zey@yandex.ru.
+	</div>
 </body>
 </html>
